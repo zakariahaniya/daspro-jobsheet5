@@ -8,6 +8,7 @@ public class PemilihanBilangan16 {
         Scanner sc = new Scanner(System.in);
         System.out.print("Masukkan sebuah angka: ");
         int angka = sc.nextInt();
+        
         String hasil;
         hasil = (angka % 2 == 0) ? "genap" : "ganjil";
         System.out.println("Angka " + angka + " termasuk bilangan " + hasil); 
